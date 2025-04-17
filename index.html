@@ -1,58 +1,146 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Jowe Boy&apos;s Website</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
-	</head>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jowe Boy - Creative Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+      <div class="logo">
+        <img src="assets/logo-new.png" alt="Jowe Boy Logo">
+      </div>
+      <ul class="sidebar-nav">
+        <li class="active"><a href="#hero">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </div>
 
-	<body>
-		<header>
-			<div class="row">
-				<div class="logo">
-					<img src="assets/logo-new.png" alt="oe_logo">
-				</div>
-				<ul class="main-nav">
-					<li class="active"><a href="">HOME</a></li>
-					<li><a href="">SERVICES</a></li>
-					<li><a href="">ABOUT</a></li>
-					<li><a href="">BLOG</a></li>
-					<li><a href="">CONTACT</a></li>
-					<li><a href="">FAQ</a></li>
-				</ul>
-			</div>
-			<div class="hero">
-				<h1>Ready for Action?</h1>
-				<div class="button">
-					<a href="" class="btn btn-one">Watch Video</a>
-					<a href="" class="btn btn-two">Explore More</a>
-				</div>
-			</div>
-		</header>
-		<section class="service grid-container">
-		</section>
-		<section class="about grid-container">
-		</section>
-		<section class="blog grid-container">
-		</section>
-		<section class="contact grid-container">
-			<div class="contact-form grid-item">
-				<div class="contact-section-header">
-					<h2>Get in touch with us!</h2>
-				</div>
-				<form class="form">
-					<input type="text" name="fullname" placeholder="Fullname">
-					<input type="email" name="email" placeholder="Email Address">
-					<input type="number" name="phonenumber" placeholder="Phone Number">
-					<textarea class="subject" name="subject" placeholder="Your subject here..."></textarea>
-					<input class="button" type="submit" value="Submit">
-				</form>
-			</div>
-			<div class="contact-form grid-item">
-			</div>
-		</section>
-		<section class="faq grid-container">
-		</section>
-	</body>
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Hero Section -->
+      <section id="hero" class="hero-section">
+        <h1>Creatividad sin límites</h1>
+        <p>Transformamos ideas en experiencias digitales memorables que conectan con tu audiencia y potencian tu marca.</p>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn">Ver Trabajos</a>
+          <a href="#contact" class="btn btn-outline">Contáctanos</a>
+        </div>
+      </section>
 
+      <!-- Services Section -->
+      <section id="services" class="section">
+        <h2>Nuestros Servicios</h2>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-content">
+              <h3>Diseño Web</h3>
+              <p>Creamos sitios web modernos, atractivos y funcionales que representan tu marca y conectan con tus clientes.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-content">
+              <h3>Marketing Digital</h3>
+              <p>Estrategias personalizadas para aumentar tu presencia en línea y alcanzar a tu audiencia objetivo.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-content">
+              <h3>Branding</h3>
+              <p>Desarrollamos identidades de marca que resuenan con tu público y destacan en el mercado.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="section">
+        <h2>Proyectos Destacados</h2>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-content">
+              <h3>Proyecto Alfa</h3>
+              <p>Rediseño completo de marca y sitio web para una empresa tecnológica líder.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-content">
+              <h3>Proyecto Beta</h3>
+              <p>Campaña de marketing digital que incrementó las ventas en un 200%.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-content">
+              <h3>Proyecto Gamma</h3>
+              <p>Desarrollo de aplicación móvil para startup de servicios financieros.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section id="blog" class="section">
+        <h2>Últimas Publicaciones</h2>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-content">
+              <h3>Tendencias de Diseño Web 2025</h3>
+              <p>Descubre las tendencias que dominarán el diseño web este año.</p>
+              <a href="#" class="btn">Leer más</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="card-content">
+              <h3>Estrategias de Marketing para Startups</h3>
+              <p>Consejos prácticos para impulsar tu startup con marketing eficiente.</p>
+              <a href="#" class="btn">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <h2>Contáctanos</h2>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Tu email">
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" placeholder="Tu teléfono">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Cuéntanos sobre tu proyecto"></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2025 Jowe Boy Creative Studio. Todos los derechos reservados.</p>
+      </footer>
+    </div>
+  </div>
+</body>
 </html>
